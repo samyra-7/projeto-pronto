@@ -129,3 +129,15 @@ footer {
     padding: 20px 0;
 }
 
+.cart a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em; /* Ajusta o tamanho do ícone */
+}
+
+.cart a i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o número de itens */
+}
+
+
