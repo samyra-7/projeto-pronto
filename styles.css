@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdfd;
+    color: #000000;
+}
+
+header {
+    background-color: #e6e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    margin: 0;
+    font-family: "DM Serif Text", serif;
+    font-weight: 1100;
+    font-style: normal;
+      
+      
+      
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #fff3f3;
+    padding: 250px 20px;
+    text-align: center;
+    background-image: url('modelo.avif');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.shop-now-btn {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fffafa;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.product-item p {
+    font-size: 1.1em;
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
